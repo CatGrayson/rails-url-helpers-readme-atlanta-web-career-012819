@@ -31,6 +31,7 @@ So why would we want to use route helper methods as opposed to hard coding paths
 * Route helpers translate directly into HTML-friendly paths. In other words, if you have any weird characters in your urls, the route helpers will convert them so they can be read properly by browsers. This includes items such as spaces or characters such as `&`, `%`, etc.
 
 
+
 ## Implementing Route Helpers
 
 To begin, we're going to start with an application that has the MVC set up for `posts`, with `index` and `show` actions currently in place. The route call looks like this:
